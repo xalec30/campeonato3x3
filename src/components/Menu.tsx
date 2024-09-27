@@ -1,5 +1,3 @@
-
-import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { Nav } from 'react-bootstrap';
@@ -9,23 +7,8 @@ import Button from 'react-bootstrap/Button';
 
 export default function Menu(){
 
-    const [TextColor,setTextColor] = useState('text-dark');
-    const [BackgroundColor,setBackground] = useState('bg-light');
-
-    /*
-    useEffect(() => {
-        window.addEventListener('scroll',(e) => {
-
-            if(document.documentElement.scrollTop >= 100 ){
-                setTextColor('text-dark');
-                setBackground('bg-light');
-            }else{
-                setTextColor('text-light');
-                setBackground('bg-transparent');
-            }
-        });
-    },[]);
-    */
+    const TextColor = 'text-dark';
+    const BackgroundColor = 'bg-light';
 
     return(
         <>

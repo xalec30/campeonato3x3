@@ -1,4 +1,4 @@
-import { Col, Container,Row } from "react-bootstrap"
+import { Container} from "react-bootstrap"
 import Cover from '../assets/video/cover-header.mp4';
 
 export default function Header(){
